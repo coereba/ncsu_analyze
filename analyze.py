@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 from matplotlib import pyplot as plt
+# jim made this comment!
 
 def analyze(filename, outputfile):
     data = np.loadtxt(fname=filename, delimiter=',')
